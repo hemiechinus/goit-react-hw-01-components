@@ -47,6 +47,9 @@
     border-radius: 5px;
     background-color: rgba(123, 137, 143, 0.719);
   }
+  .stat:not(:last-child){
+    margin-right: 10px;
+}
   
   .label {
     display: block;

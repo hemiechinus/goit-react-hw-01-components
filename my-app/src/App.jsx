@@ -1,5 +1,7 @@
 import user from './components/profile/user.json';
+import data from './components/statistics/data.json';
 import Profile from './components/profile/SocialProfile';
+import Statistics from './components/statistics/statistics';
 
 function App() {
     return (
@@ -11,7 +13,9 @@ function App() {
         avatar = {user.avatar}
         stats = {user.stats}
         />
+        <Statistics title="Upload stats" stats={data}/>
       </div>
+
     );
   }
 
